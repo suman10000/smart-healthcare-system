@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  # Database Service
+  database:
+    image: mysql:8.0
+    container_name: healthcare-db-server
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      # Automatically initializes the databases on first boot
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Backend Service (Node + Python)
+  backend:
+    build: ./Backend
+    container_name: healthcare-backend
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - DB_HOST=database
+      - DB_USER=root
+      - DB_PASSWORD=
+      - BACKEND_URL=http://localhost:4000
+    depends_on:
+      - database
+
+  # Frontend Service (Vite UI)
+  frontend:
+    image: node:18-slim
+    container_name: healthcare-frontend
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - ./Frontend:/home/node/app
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npm run dev -- --host"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
