@@ -1,0 +1,600 @@
+{
+  "metrics": {
+    "total_patients_analyzed": 33,
+    "apriori_execution_time": "2.65 ms",
+    "apriori_status": "Completed",
+    "fpgrowth_execution_time_ms": 1.91,
+    "apriori_rules_found": 0,
+    "fpgrowth_rules_found": 84
+  },
+  "association_rules": [
+    {
+      "antecedent": "Antenatal Care;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 3.3
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Antenatal Care;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 3.3
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 3.3
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 3.3
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Angina;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Alcoholism;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;, Alcoholism;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Angina;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Acute Gastroenteritis;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Gastroenteritis;, Angina;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 7.33
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 7.33
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Angina;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;, Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Angina;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;, Angina;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;, Amoebic Dysentry;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Angina;, Alcoholism;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Amoebic Dysentry;, Alcoholism;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Amoebic Dysentry;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Angina;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Angina;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Alcoholism;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Amoebic Dysentry;, Alcoholism;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Amoebic Dysentry;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Angina;, Amoebic Dysentry;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Angina;, Alcoholism;",
+      "consequent": "Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Amoebic Dysentry;, Alcoholism;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;, Amoebic Dysentry;, Alcoholism;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Angina;",
+      "consequent": "Amoebic Dysentry;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "consequent": "Angina;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;, Alcoholism;",
+      "consequent": "Angina;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Angina;, Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Angina;, Alcoholism;",
+      "consequent": "Acute Gastroenteritis;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Amoebic Dysentry;, Alcoholism;",
+      "consequent": "Acute Gastroenteritis;, Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Angina;, Amoebic Dysentry;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Acute Gastroenteritis;, Amoebic Dysentry;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Amoebic Dysentry;",
+      "consequent": "Acute Gastroenteritis;, Angina;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Gastroenteritis;, Angina;, Amoebic Dysentry;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;",
+      "consequent": "Acute Gastroenteritis;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Acute Gastroenteritis;",
+      "consequent": "Acute Suppurative Otitis Media;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;",
+      "consequent": "Antenatal Care;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Antenatal Care;",
+      "consequent": "Acute Suppurative Otitis Media;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 5.5
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Suppurative Otitis Media;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 4.4
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;, Antenatal Care;",
+      "consequent": "Alcoholism;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;, Alcoholism;",
+      "consequent": "Antenatal Care;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Antenatal Care;, Alcoholism;",
+      "consequent": "Acute Suppurative Otitis Media;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Acute Suppurative Otitis Media;",
+      "consequent": "Antenatal Care;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Antenatal Care;",
+      "consequent": "Acute Suppurative Otitis Media;, Alcoholism;",
+      "support": 0.0606,
+      "confidence": "50.0%",
+      "lift": 8.25
+    },
+    {
+      "antecedent": "Alcoholism;",
+      "consequent": "Acute Suppurative Otitis Media;, Antenatal Care;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Bacillary Dysentry;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Bacillary Dysentry;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "ARI Pneumonia;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "ARI Pneumonia;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Precanceros Cervicalerosion;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Precanceros Cervicalerosion;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Febrile Convulsion;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Febrile Convulsion;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Dengue;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Dengue;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Dengue;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Dengue;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Dengue;, Congestive Heart Failure;",
+      "consequent": "Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 11.0
+    },
+    {
+      "antecedent": "Dengue;, Angina;",
+      "consequent": "Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Congestive Heart Failure;, Angina;",
+      "consequent": "Dengue;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Dengue;",
+      "consequent": "Congestive Heart Failure;, Angina;",
+      "support": 0.0606,
+      "confidence": "100.0%",
+      "lift": 16.5
+    },
+    {
+      "antecedent": "Congestive Heart Failure;",
+      "consequent": "Dengue;, Angina;",
+      "support": 0.0606,
+      "confidence": "40.0%",
+      "lift": 6.6
+    },
+    {
+      "antecedent": "Angina;",
+      "consequent": "Dengue;, Congestive Heart Failure;",
+      "support": 0.0606,
+      "confidence": "66.7%",
+      "lift": 11.0
+    }
+  ]
+}

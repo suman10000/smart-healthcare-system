@@ -9,12 +9,12 @@ app.use(express.json());//Allow server to read JSON data from requests..........
 const percentageRoute = require('./routes/percentage');
 const hospitalRoutes = require('./routes/hospitalRoutes');
 const donorRoutes = require('./routes/donorRoutes');
-
+const analyticsRoutes = require('./routes/analyticsRoutes');
 // Mount all API routes under /api prefix
 app.use('/api', percentageRoute);
 app.use('/api', hospitalRoutes);
 app.use('/api', donorRoutes);
-
+app.use('/api/analytics', analyticsRoutes);
 // =====================================================================
 // TRANSACTIONAL DATA API FOR ASSOCIATION RULE MINING
 // This endpoint extracts grouped comorbidity groups from your View layer

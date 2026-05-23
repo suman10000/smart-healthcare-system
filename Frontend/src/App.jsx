@@ -8,7 +8,7 @@ import Home from "./components/sections/Home";
 import Footer from "./components/Footer";
 
 // Import or create the components for the new routes (placeholders for now)
-import GroupwiseDiagnosisOverview from "./Page/GroupwiseDiagnosisOverview";
+import MiningComparison from "./Page/MiningComparison";
 import DiseasePercentageByHospitalDate from "./Page/DiseasePercentageByHospitalDate";
 
 function App() {
@@ -43,6 +43,7 @@ function App() {
               </section>
             }
           />
+          
           <Route
             path="/Home"
             element={
@@ -54,8 +55,8 @@ function App() {
 
           {/* Added routes for new pages */}
           <Route
-            path="/groupwise_diagnosis_overview"
-            element={<GroupwiseDiagnosisOverview />}
+            path="/mining_comparison"
+            element={<MiningComparison />}
           />
           <Route
             path="/disease_percentage_by_hospital_date"

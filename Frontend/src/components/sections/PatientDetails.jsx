@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 
 const links = [
-  { label: "Groupwise Diagnosis Overview", to: "/groupwise_diagnosis_overview" },
+  { label: "Mining Comparison", to: "/mining_comparison" },
   { label: "Disease-wise % by Hospital and Date Range", to: "/disease_percentage_by_hospital_date" },
 ];
 
